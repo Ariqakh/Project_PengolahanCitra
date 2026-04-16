@@ -1,3 +1,6 @@
+#PROGRAM PENGOLAHAN CITRA - CONVOLUTION (MASK PROCESSING)
+#Anggota Kelompok : Ariqa Khairunnisa (2301020040) & Yunita Br Situmorang (2301020039)
+
 import streamlit as st
 import cv2, numpy as np
 from PIL import Image
@@ -26,8 +29,7 @@ filters = [
     'Laplacian Filter',
     'High Boost Filter'
 ]
-# Streamlit selectbox versi tertentu memiliki fitur pencarian/ketik.
-# Diganti radio agar pilihan hanya klik dan tidak bisa menghapus tulisan.
+
 menu = st.radio('Pilih Filter', options=filters, index=0, horizontal=False)
 
 if file:
