@@ -1,5 +1,6 @@
 # Project_PengolahanCitra
 Mata Kuliah : Pengolahan Citra 
+
 Dosen Pengampu : Marisha Pertiwi, S.Tr.Kom., M.Kom.
 
 Materi : Convolution (Mask Processing)
